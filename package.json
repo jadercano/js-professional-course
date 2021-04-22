@@ -1,0 +1,12 @@
+{
+  "name": "curso-js-professional",
+  "version": "1.0.0",
+  "description": "Javascript Professional Course",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jader Cano <jader.cano@gmail.com>",
+  "license": "MIT",
+  "keywords": []
+}
