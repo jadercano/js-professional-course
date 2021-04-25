@@ -4,9 +4,21 @@
   "description": "Javascript Professional Course",
   "main": "src/index.js",
   "scripts": {
+    "start": "live-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jader Cano <jader.cano@gmail.com>",
   "license": "MIT",
-  "keywords": []
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadercano/js-professional-course.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jadercano/js-professional-course/issues"
+  },
+  "homepage": "https://github.com/jadercano/js-professional-course#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }
