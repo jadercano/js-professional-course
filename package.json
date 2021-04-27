@@ -4,7 +4,7 @@
   "description": "Javascript Professional Course",
   "main": "src/index.js",
   "scripts": {
-    "start": "live-server",
+    "start": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jader Cano <jader.cano@gmail.com>",
@@ -18,7 +18,10 @@
     "url": "https://github.com/jadercano/js-professional-course/issues"
   },
   "homepage": "https://github.com/jadercano/js-professional-course#readme",
+  "browserList": [
+    "last 1 Chrome version"
+  ],
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "parcel": "^2.0.0-beta.2"
   }
 }
